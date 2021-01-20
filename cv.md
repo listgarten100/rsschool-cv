@@ -52,3 +52,5 @@ console.log(myUniq(notUniqNums));
 console.log(myUniq(notUniqStrings));
 ```
 ---
+### Work experience
+- [Slider](https://github.com/listgarten100/slider) was created using native JS 
