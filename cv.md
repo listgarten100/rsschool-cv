@@ -27,7 +27,7 @@ Email: listgarten100@gmail.com
 Telegram: @vlad_listgarten  
 ---
 
-###Skills  
+###Skills
 - HTML/CSS  
 - SASS/SCSS  
 - Markdown  
@@ -38,7 +38,7 @@ Telegram: @vlad_listgarten
 - JQuery  
 - Soft Skills  
 
-######Code example:  
+######Code example:
 ```
 let notUniqNums = [1, 1, 2, 3, 4, 5, 6, 7];
 
