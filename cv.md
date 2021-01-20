@@ -26,3 +26,29 @@ Phone: +380506802249
 Email: listgarten100@gmail.com  
 Telegram: @vlad_listgarten  
 ---
+
+###Skills  
+- HTML/CSS  
+- SASS/SCSS  
+- Markdown  
+- Git  
+- Java Script  
+- Gulp  
+- Webpack  
+- JQuery  
+- Soft Skills  
+
+######Code example:  
+```
+let notUniqNums = [1, 1, 2, 3, 4, 5, 6, 7];
+
+let notUniqStrings = ['Bob', 'Kate', 'Jhon', 'Tom', 'Jhon', 'Kate', 'Tom', 'Bob', 'Jhon', 'Tom'];
+
+let myUniq = function(arr) {
+  return Array.from(new Set(arr));
+}
+
+console.log(myUniq(notUniqNums));
+console.log(myUniq(notUniqStrings));
+```
+---
