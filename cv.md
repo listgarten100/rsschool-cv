@@ -22,7 +22,7 @@ Front End, Skill Up (2020 - 2021)
 I really want to look for a company where I can grow with this company. I dream to have a chance to learn new things from someone experienced. Also, I consider that I am a team-player.
 
 - **Contacts**   
-Phone: +380506802249
-Email: listgarten100@gmail.com
-Telegram: @vlad_listgarten
+Phone: +380506802249  
+Email: listgarten100@gmail.com  
+Telegram: @vlad_listgarten  
 ---
