@@ -1,0 +1,129 @@
+.headline{
+    font-size: 34px;
+    font-family: $font1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $brown;
+    text-align: center;
+}
+
+.work{
+    display: block;
+    position: relative;
+
+    &__inner{
+        padding-top: 60px;
+        // text-align: center;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding-top: 52px;
+    }
+
+    &__item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 49px;
+        margin-right: auto;
+
+        &:nth-child(2) {
+            margin-right: 49px;
+            margin-left: auto;
+        }
+    }
+
+    &__desc{
+        width: 270px;
+        // min-height: 90px;
+        background-color: #abaaaa;
+        padding: 20px 10px;
+        display: grid;
+        grid-gap: 10px;
+    }
+
+    &__desc-title{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: $font2;
+        color: $brown;
+    }
+
+    &__desc-company{
+        font-size: 18px;
+        font-weight: 700;
+        font-family: $font2;
+        color: $black;
+    }
+
+    &__desc-duties{
+        font-size: 16px;
+        font-family: $font2;
+        color: $black;
+    }
+
+    &__decor{
+        display: flex;
+        align-items: center;
+        position: relative;
+
+    }
+
+    &__decor-horizStick{
+        width: 35px;
+        height: 3px;
+        background-color: #abaaaa;
+
+    }
+
+    &__decor-vertStick{
+        width: 20px;
+        height: 164px;
+        background-color: #abaaaa;
+        display: grid;
+        margin-right: 30px;
+
+
+    }
+
+    &__decor-vertStick--white{
+        margin-right: 0;
+        margin-left: 30px;
+        background-color: #ededed;
+    }
+
+    &__decor-vertStick--gray{
+        background-color: #dedede;
+    }
+
+
+    &__decor-vertStick-cirkle{
+        // position: absolute;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #fff;
+        justify-self: center;
+        align-self: center;
+    }
+
+    &__date{
+        font-size: 36px;
+        font-weight: 500;
+        font-family: $font1;
+        font-style: italic;
+    }
+
+    // &__date--right{
+    //     padding-left: 26px;
+    // }
+
+    // &__date--left{
+    //     padding-right: 26px;
+    // }
+}
+

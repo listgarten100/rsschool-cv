@@ -1,14 +1,29 @@
 /* wrapper */
-
+* {
+    box-sizing: border-box;
+}
 
 .layout {
   position: relative;
 
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
+.content{
+    display: grid;
+    grid-template-areas: "aside main";
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.main{
+    grid-area: main;
+}
 
 
 
