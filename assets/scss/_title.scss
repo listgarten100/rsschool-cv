@@ -1,5 +1,50 @@
 .title{
     position: absolute;
+    left: 54px;
+    top: 60px;
+    display: grid;
+    grid-gap: 26px;
+
+
+   &__greeting{
+       font-size: 34px;
+       font-family: $font2;
+       font-weight: 700;
+       color: #fff;
+       font-style: italic;
+   } 
+
+   &__name{
+    font-size: 74px;
+    font-family: $font1;
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+   }
+
+   &__name--black{
+
+    color: #000;
+
+   }
+
+   &__desc{
+    font-size: 30px;
+    font-family: $font1;
+    font-weight: 500;
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+   }
+
+   &__desc--black{
+
+    color: #000;
+ 
+   }
 }
 
 

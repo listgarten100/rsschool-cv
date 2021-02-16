@@ -19,6 +19,12 @@
 
 .aside{
     grid-area: aside;
+    background-color: #000;
+    border-left: 20px solid $brown;
+
+    &__inner{
+        padding: 0 26px 0 26px;
+    }
 }
 
 .main{

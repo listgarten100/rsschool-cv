@@ -1,0 +1,97 @@
+.skills{
+    display: block;
+    position: relative;
+
+    &__inner{
+        margin-top: 100px;
+        padding-bottom: 60px; 
+    }
+
+    &__list{
+        margin-top: 60px;
+        display: grid;
+        grid-gap: 50px;
+
+    }
+
+    &__item{
+        position: relative;
+        display: grid;
+        // grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+        // justify-content: space-between;
+        // margin-bottom: -30px;
+        border-bottom: 4px solid #5b5959;
+    
+        &::after{
+            content: '';
+            display: block;
+            width: 350px;
+            height: 4px;
+            margin-bottom: -6px;
+            // margin-top: 26px;
+            background-color: #fff;
+        }
+
+        &:nth-child(4), &:nth-child(5), &:nth-child(6), &:nth-child(7) {
+
+            &::after{
+                width: 290px;  
+            }
+        }
+
+        
+        &:nth-child(8) {
+
+            &::after{
+                width: 220px;  
+            }
+        }
+       
+        &:nth-child(9) {
+
+            &::after{
+                width: 170px;  
+            }
+        } 
+
+    }
+
+    &__name{
+        font-size: 25px;
+        font-family: $font2;
+        color: #fff;
+    }
+    &__percent{
+        position: absolute;
+        right: 13%;
+        bottom: -13px;
+    }
+
+   &__number{
+    font-size: 22px;
+    font-family: $font1;
+    color: #fff;
+    // padding-right: 50px;
+   }
+
+   &__circle{
+  
+       width: 22px;
+       height: 22px;
+       background-color: #fff;
+       border-radius: 50%;
+       margin-top: 15px;
+   
+   }
+
+   &__percent--seventy{
+       right: 24%;
+   }
+   &__percent--fifty{
+    right: 44%;
+    }
+    &__percent--forty{
+        right: 54%;
+    }
+}

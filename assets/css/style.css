@@ -150,6 +150,20 @@ select {
   vertical-align: middle;
 }
 
+@font-face {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/roboto-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/opensans-regular.woff2") format("woff2");
+}
+
 /* wrapper */
 * {
   -webkit-box-sizing: border-box;
@@ -171,28 +185,60 @@ select {
 
 .aside {
   grid-area: aside;
+  background-color: #000;
+  border-left: 20px solid #500909;
+}
+
+.aside__inner {
+  padding: 0 26px 0 26px;
 }
 
 .main {
   grid-area: main;
 }
 
-@font-face {
-  font-family: "Roboto";
-  font-weight: normal;
-  font-style: normal;
-  src: url("../fonts/roboto-regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-weight: normal;
-  font-style: normal;
-  src: url("../fonts/opensans-regular.woff2") format("woff2");
-}
-
 .title {
   position: absolute;
+  left: 54px;
+  top: 60px;
+  display: grid;
+  grid-gap: 26px;
+}
+
+.title__greeting {
+  font-size: 34px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #fff;
+  font-style: italic;
+}
+
+.title__name {
+  font-size: 74px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.title__name--black {
+  color: #000;
+}
+
+.title__desc {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 11px;
+}
+
+.title__desc--black {
+  color: #000;
 }
 
 .header {
@@ -302,7 +348,7 @@ select {
 }
 
 .work__item:nth-child(2) {
-  margin-right: 49px;
+  margin-right: 89px;
   margin-left: auto;
 }
 
@@ -648,6 +694,157 @@ select {
   -ms-flex-line-pack: center;
       align-content: center;
   padding-top: 20px;
+}
+
+.aside__headline {
+  font-size: 34px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+  display: block;
+  position: relative;
+}
+
+.about__inner {
+  position: relative;
+  padding: 260px 0 10px 0;
+}
+
+.about__logo {
+  display: block;
+  justify-self: start;
+}
+
+.about .aside__headline {
+  justify-self: start;
+}
+
+.about__text {
+  margin-top: 34px;
+  width: 86%;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  line-height: 30px;
+}
+
+.social {
+  display: block;
+  width: 350px;
+  min-height: 50px;
+  margin: 74px auto 0 auto;
+}
+
+.social::after {
+  content: '';
+  display: block;
+  width: 430px;
+  height: 4px;
+  background-color: #fff;
+  float: left;
+  margin-top: 62px;
+  margin-left: -60px;
+}
+
+.social__item {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 44px;
+}
+
+.social__link {
+  width: 100%;
+  height: 100%;
+}
+
+.skills {
+  display: block;
+  position: relative;
+}
+
+.skills__inner {
+  margin-top: 100px;
+  padding-bottom: 60px;
+}
+
+.skills__list {
+  margin-top: 60px;
+  display: grid;
+  grid-gap: 50px;
+}
+
+.skills__item {
+  position: relative;
+  display: grid;
+  grid-gap: 30px;
+  border-bottom: 4px solid #5b5959;
+}
+
+.skills__item::after {
+  content: '';
+  display: block;
+  width: 350px;
+  height: 4px;
+  margin-bottom: -6px;
+  background-color: #fff;
+}
+
+.skills__item:nth-child(4)::after, .skills__item:nth-child(5)::after, .skills__item:nth-child(6)::after, .skills__item:nth-child(7)::after {
+  width: 290px;
+}
+
+.skills__item:nth-child(8)::after {
+  width: 220px;
+}
+
+.skills__item:nth-child(9)::after {
+  width: 170px;
+}
+
+.skills__name {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+.skills__percent {
+  position: absolute;
+  right: 13%;
+  bottom: -13px;
+}
+
+.skills__number {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.skills__circle {
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.skills__percent--seventy {
+  right: 24%;
+}
+
+.skills__percent--fifty {
+  right: 44%;
+}
+
+.skills__percent--forty {
+  right: 54%;
 }
 
 @media (min-width: 600px) and (max-width: 767px) {
