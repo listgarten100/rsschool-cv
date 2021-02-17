@@ -1,6 +1,6 @@
 .title{
     position: absolute;
-    left: 54px;
+    left: 58px;
     top: 100px;
     display: grid;
     grid-gap: 26px;
@@ -8,7 +8,8 @@
 
    &__greeting{
        font-size: 34px;
-       font-family: $font2;
+    //    font-family: 'Marck Script', sans-serif;
+        font-family: $font2;
        font-weight: 700;
        color: #fff;
        font-style: italic;
@@ -19,9 +20,9 @@
     font-family: $font1;
     font-weight: 700;
     color: #fff;
-    font-style: italic;
+    // font-style: italic;
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 10px;
    }
 
    &__name--black{

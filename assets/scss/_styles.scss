@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #ededed;
+}
+
 .layout {
   position: relative;
 
@@ -10,20 +14,22 @@
   max-width: 1280px;
   margin: 0 auto;
 
-//   border-left: 20px solid $brown;
-//   border-right: 20px solid $brown;
+  border-left: 20px solid $brown;
+  border-right: 20px solid $brown;
 }
 
 .content{
     display: grid;
     grid-template-areas: "aside main";
     grid-template-columns: 1fr 1.5fr;
+    background-color: #fff;
 }
 
 .aside{
     grid-area: aside;
     background-color: #000;
-    border-left: 20px solid $brown;
+    // border-left: 20px solid $brown;
+    border-bottom: 30px solid #fff;
 
     &__inner{
         padding: 0 26px 0 26px;
@@ -32,7 +38,7 @@
 
 .main{
     grid-area: main;
-    border-right: 20px solid $brown;
+    // border-right: 20px solid $brown;
 }
 
 

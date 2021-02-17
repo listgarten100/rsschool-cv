@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
     <title>CV</title>
 </head>
 <body>
@@ -21,20 +22,24 @@
             <main class="main">
                 <header class="header">
                     <div class="header__inner">
-                        <div class="decor">
-                            <div class="decor__stick"></div>
-                            <div class="decor__square"></div>
+                        <div class="download">
+                
+                            <div class="download__stick"></div>
+                            <!-- <a href="file/CV.pdf" class="download" target="_blank">Download CV</a> -->
+                            <a href="file/CV.pdf" class="download__link" target="_blank">Download CV</a>
+                          
                         </div>
                         <nav class="menu">
                             <ul class="menu__list">
-                                <li class="menu__item"><a href="#" class="menu__link">About me</a></li>
-                      
-                                <li class="menu__item"><a href="#" class="menu__link">Languages</a></li>
-                                <li class="menu__item"><a href="#" class="menu__link">Education</a></li>
-                                <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
-                                <li class="menu__item"><a href="#" class="menu__link">Awards</a></li>
-                                <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
-                                <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
+                                <!-- <li class="menu__item"><a href="#about" class="menu__link">About me</a></li> -->
+                                <li class="menu__item"><a href="#education" class="menu__link">Education</a></li>
+                                <li class="menu__item"><a href="#lang" class="menu__link">Languages</a></li>
+                              
+                                <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
+                                <li class="menu__item"><a href="#awards" class="menu__link">Awards</a></li>
+                                <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+                                <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
+                              
                             </ul>
                         </nav>
                     </div>
@@ -97,7 +102,7 @@
                         </ul>
                     </div>
                 </section>
-                <section class="lang">
+                <section class="lang" id="lang">
                     <div class="lang__inner">
                         <h3 class="headline">languages</h3>
                         <ul class="lang__list">
@@ -136,7 +141,7 @@
                         </ul>
                     </div>
                 </section>
-                <section class="education">
+                <section class="education" id="education">
                     <div class="education__inner">
                         <h3 class="headline">
                             education
@@ -198,7 +203,7 @@
                         </ul>
                     </div>
                 </section>
-                <section class="awards">
+                <section class="awards" id="awards">
                     <div class="awards__inner">
                         <h3 class="headline">
                             awards
@@ -234,19 +239,19 @@
                         </div>
                     </div>
                 </section>
-                <section class="portfolio">
+                <section class="portfolio" id="portfolio">
                     <div class="portfolio__inner">
                         <h3 class="headline">Portfolio</h3>
                         <ul class="portfolio__list">
                             <li class="portfolio__item">
-                                <a href="" class="portfolio__link">
+                                <a href="https://listgarten100.github.io/blog/" class="portfolio__link" target="_blank">
                                     <img src="assets/img/img-blog.png" alt="blog" class="portfolio__img">
                                     <img src="assets/img/img-eye.svg" alt="eye" class="portfolio__img--eye">
                                 </a>
                                 <p class="portfolio__desc">Grid-CSS</p>
                             </li>
                             <li class="portfolio__item">
-                                <a href="" class="portfolio__link">
+                                <a href="https://listgarten100.github.io/slider/" class="portfolio__link" target="_blank">
                                     <img src="assets/img/img-slider.png" alt="slider" class="portfolio__img">
                                     <img src="assets/img/img-eye.svg" alt="eye" class="portfolio__img--eye">
                                 </a>
@@ -254,14 +259,14 @@
 
                             </li>
                             <li class="portfolio__item">
-                                <a href="" class="portfolio__link">
+                                <a href="https://listgarten100.github.io/weather/" class="portfolio__link" target="_blank">
                                     <img src="assets/img/img-weather.png" alt="weather" class="portfolio__img">
                                     <img src="assets/img/img-eye.svg" alt="eye" class="portfolio__img--eye">
                                 </a>
                                 <p class="portfolio__desc">Fetch requests</p>
                             </li>
                             <li class="portfolio__item">
-                                <a href="" class="portfolio__link">
+                                <a href="https://listgarten100-wildlife.netlify.app/" class="portfolio__link" target="_blank">
                                     <img src="assets/img/img-wildlife.png" alt="widlife" class="portfolio__img">
                                     <img src="assets/img/img-eye.svg" alt="eye" class="portfolio__img--eye">
                                 </a>
@@ -276,21 +281,21 @@
                     <section class="about">
                         <div class="about__inner">
                             <img src="assets/img/img-logo.png" alt="logo" class="about__logo">
-                            <h3 class="aside__headline">about me</h3>
+                            <h3 id="about" class="aside__headline">about me</h3>
                             <p class="about__text">
                                 I really want to look for a company where I can grow with this company. I dream to have a chance to learn new things from someone experienced. Also, I consider that I am a team-player.
                             </p>
                             <ul class="social">
              
-                                    <li class="social__item"><a href="#" class="social__link"><img src="assets/img/img-insta.svg" alt="icon" class="social__img"></a></li>
-                                    <li class="social__item"><a href="#" class="social__link"><img src="assets/img/img-telegram.svg" alt="icon" class="social__img"></a></li>
-                                    <li class="social__item"><a href="#" class="social__link"><img src="assets/img/img-github.svg" alt="icon" class="social__img"></a></li>
-                                    <li class="social__item"><a href="#" class="social__link"><img src="assets/img/img-skype.svg" alt="icon" class="social__img"></a></li>
+                                    <li class="social__item"><a href="https://instagram.com/vlad.listgarten?igshid=a1wtdormsbtw" class="social__link" target="_blank"><img src="assets/img/img-insta.svg" alt="icon" class="social__img"></a></li>
+                                    <li class="social__item"><a href="https://t.me/vlad_listgarten" class="social__link" target="_blank"><img src="assets/img/img-telegram.svg" alt="icon" class="social__img"></a></li>
+                                    <li class="social__item"><a href="https://github.com/listgarten100" class="social__link" target="_blank"><img src="assets/img/img-github.svg" alt="icon" class="social__img"></a></li>
+                                    <li class="social__item"><a href="https://join.skype.com/invite/B4TOlEmSE0mi" class="social__link" target="_blank"><img src="assets/img/img-skype.svg" alt="icon" class="social__img"></a></li>
                    
                             </ul>
                         </div>
                     </section>
-                    <section class="skills">
+                    <section class="skills" id="skills">
                         <div class="skills__inner">
                             <h3 class="aside__headline">skills</h3>
                             <ul class="skills__list">
@@ -370,31 +375,33 @@
                 </div>
             </aside>
         </div>
-    </div>
+  
     <footer class="footer">
-        <div class="layout">
-                <div class="contact">  
+     
+                <div class="contact" id="contacts">  
                     <h3 class="contact__title">contact me</h3>
                     <ul class="contact__list">
-                        <li class="contact__item"><a href="#" class="contact__link">
+                        <li class="contact__item"><a href="https://github.com/listgarten100" class="contact__link" target="_blank">
                             <img src="assets/img/img-site.svg" alt="site" class="contact__img">
                             https://githab.com/listgarten100
                         </a></li>
-                        <li class="contact__item"><a href="#" class="contact__link">
+                        <li class="contact__item"><a href="tel: +380506802249" class="contact__link">
                             <img src="assets/img/img-phone.svg" alt="phone" class="contact__img">
                             +380506802249
                         </a></li>
-                        <li class="contact__item"><a href="#" class="contact__link">
+                        <li class="contact__item"><a href="https://www.google.com/maps/place/%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C/@49.994507,36.145742,11z/data=!3m1!4b1!4m5!3m4!1s0x4127a09f63ab0f8b:0x2d4c18681aa4be0a!8m2!3d49.9935!4d36.230383" class="contact__link" target="_blank">
                             <img src="assets/img/img-location.svg" alt="location" class="contact__img">
                             Ukraine, Kharkiv
                         </a></li>
-                        <li class="contact__item"><a href="#" class="contact__link">
+                        <li class="contact__item"><a href="mailto: listgarten100@gmail.com" class="contact__link">
                             <img src="assets/img/img-email.svg" alt="email" class="contact__img">
                             listgarten100@gmail.com
                         </a></li>
                     </ul>
                 </div>
-        </div>
-    </footer>
+      
+        </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

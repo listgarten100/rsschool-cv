@@ -7,7 +7,7 @@
 
 .contact{
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     min-height: 150px;
     // display: flex;
     align-items: center;
@@ -24,12 +24,20 @@
 
     &__list{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 380px 380px;
+        // display: flex;
+        // flex-wrap: wrap;
+        // width: 800px;
+        // justify-content: space-between;
         grid-gap: 20px;
     }
 
     &__item{
         position: relative;
+
+        // &:not(:nth-child(2n)) {
+        //     margin-right: 50px;
+        // }
     }
 
     &__link{
@@ -38,6 +46,7 @@
         font-size: 22px;
         font-family: $font1;
         color: #fff;
+        width: 230px;
     }
 
     &__img{
