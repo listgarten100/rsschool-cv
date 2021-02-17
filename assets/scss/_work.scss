@@ -12,7 +12,7 @@
     position: relative;
 
     &__inner{
-        padding-top: 60px;
+        padding-top: 80px;
         // text-align: center;
     }
 
@@ -30,9 +30,10 @@
         align-items: center;
         margin-left: 49px;
         margin-right: auto;
+        
 
         &:nth-child(2) {
-            margin-right: 89px;
+            margin-right: 69px;
             margin-left: auto;
         }
     }
@@ -44,6 +45,14 @@
         padding: 20px 10px;
         display: grid;
         grid-gap: 10px;
+    }
+
+    &__desc--white{
+        background-color: #ededed;
+    }
+
+    &__desc--gray{
+        background-color: #dedede;
     }
 
     &__desc-title{

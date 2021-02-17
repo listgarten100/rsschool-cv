@@ -89,14 +89,14 @@
 
       &__diagram--eng {
 
-        &::before{  
-            clip: rect(0 90px 40px 0);
+        &::before{
+            clip: rect(0 74px 40px 0);
             transform: rotate(90deg);
         }
 
         &::after{
-        clip: rect(0 66px 30px 0);
-        transform: rotate(240deg);
+        clip: rect(0 80px 40px 0);
+        transform: rotate(220deg);
         }
       }
 

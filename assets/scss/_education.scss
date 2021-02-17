@@ -9,7 +9,7 @@
     &__inner{
         padding-top: 80px;
         display: grid;
-        grid-template-columns: 1fr 0.3fr 1fr;
+        grid-template-columns: 1fr 0.25fr 1fr;
         grid-template-areas: 'title title title'
         'list-left border list-right';
     }
@@ -66,7 +66,17 @@
        display: grid;
        align-items: center;
        justify-items: center;
- 
+       position: relative;
+    
+       &::before{
+        content: ''; 
+        position: absolute;
+        right: -5px; top: 0.5px;
+        border: 4px solid transparent;
+        border-left: 8px solid $brown;
+        transform: rotate(64deg);
+       }
+
    }
 
    &__date-text{

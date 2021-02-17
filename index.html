@@ -9,14 +9,14 @@
 </head>
 <body>
     <div class="layout">
-        <div class="title">
-            <p class="title__greeting">
-                Hello, I am
-            </p>
-            <h1 class="title__name">vlad list<span class="title__name--black">garten</span></h1>
-            <h2 class="title__desc">junior frontend <span class="title__desc--black">developer</span></h2>
-        </div>
         <div class="content">
+            <div class="title">
+                <p class="title__greeting">
+                    Hello, I am
+                </p>
+                <h1 class="title__name">vlad list<span class="title__name--black">garten</span></h1>
+                <h2 class="title__desc">junior frontend <span class="title__desc--black">developer</span></h2>
+            </div>
        
             <main class="main">
                 <header class="header">
@@ -28,12 +28,13 @@
                         <nav class="menu">
                             <ul class="menu__list">
                                 <li class="menu__item"><a href="#" class="menu__link">About me</a></li>
-                                <li class="menu__item"><a href="#" class="menu__link">Work experience</a></li>
+                      
                                 <li class="menu__item"><a href="#" class="menu__link">Languages</a></li>
                                 <li class="menu__item"><a href="#" class="menu__link">Education</a></li>
                                 <li class="menu__item"><a href="#" class="menu__link">Skills</a></li>
                                 <li class="menu__item"><a href="#" class="menu__link">Awards</a></li>
                                 <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -67,7 +68,7 @@
                                     </div>
                                     <div class="work__decor-horizStick"></div>
                                 </div>
-                                <div class="work__desc">
+                                <div class="work__desc work__desc--white">
                                     <h3 class="work__desc-title">Campaign Manager</h3>
                                     <p class="work__desc-company">INFUSE media</p>
                                     <p class="work__desc-duties">Manage the implementation,
@@ -77,7 +78,7 @@
                                 </div>
                             </li>
                             <li class="work__item">
-                                <div class="work__desc">
+                                <div class="work__desc work__desc--gray">
                                     <h3 class="work__desc-title">Administrator</h3>
                                     <p class="work__desc-company">Center "Olimp"</p>
                                     <p class="work__desc-duties">Planing and executing sports 
@@ -199,7 +200,74 @@
                 </section>
                 <section class="awards">
                     <div class="awards__inner">
-                        
+                        <h3 class="headline">
+                            awards
+                        </h3>
+                        <div class="awards__content">
+                            <img src="assets/img/img-person.png" alt="person" class="awards__img">
+                            <ul class="awards__list">
+                                <li class="awards__item">
+                                    <h6 class="awards__item-place">
+                                        1st place
+                                    </h6>
+                                    <img src="assets/img/img-chemistry.png" alt="chemisty" class="awards__item-img">
+                                    <p class="awards__item-major">Kharkiv Olympiad in Chemistry</p>
+                            
+                                </li>
+                                <li class="awards__item">
+                                    <h6 class="awards__item-place">
+                                        2nd place
+                                    </h6>
+                                    <img src="assets/img/img-math.png" alt="math" class="awards__item-img">
+                                    <p class="awards__item-major">Kharkiv Olympiad in Higher Mathematics</p>
+                                  
+                                </li>
+                                <li class="awards__item">
+                                    <h6 class="awards__item-place">
+                                        3rd place
+                                    </h6>
+                                    <img src="assets/img/img-mechanic.png" alt="mechanic" class="awards__item-img">
+                                    <p class="awards__item-major">Theory of Mechanisms and Machines</p>
+                                 
+                                </li>
+                            </ul>   
+                        </div>
+                    </div>
+                </section>
+                <section class="portfolio">
+                    <div class="portfolio__inner">
+                        <h3 class="headline">Portfolio</h3>
+                        <ul class="portfolio__list">
+                            <li class="portfolio__item">
+                                <a href="" class="portfolio__link">
+                                    <img src="assets/img/img-blog.png" alt="blog" class="portfolio__img">
+                                    <img src="assets/img/img-eye.svg" alt="eye" class="portfolio__img--eye">
+                                </a>
+                                <p class="portfolio__desc">Grid-CSS</p>
+                            </li>
+                            <li class="portfolio__item">
+                                <a href="" class="portfolio__link">
+                                    <img src="assets/img/img-slider.png" alt="slider" class="portfolio__img">
+                                    <img src="assets/img/img-eye.svg" alt="eye" class="portfolio__img--eye">
+                                </a>
+                                <p class="portfolio__desc">Slider with native JS</p>
+
+                            </li>
+                            <li class="portfolio__item">
+                                <a href="" class="portfolio__link">
+                                    <img src="assets/img/img-weather.png" alt="weather" class="portfolio__img">
+                                    <img src="assets/img/img-eye.svg" alt="eye" class="portfolio__img--eye">
+                                </a>
+                                <p class="portfolio__desc">Fetch requests</p>
+                            </li>
+                            <li class="portfolio__item">
+                                <a href="" class="portfolio__link">
+                                    <img src="assets/img/img-wildlife.png" alt="widlife" class="portfolio__img">
+                                    <img src="assets/img/img-eye.svg" alt="eye" class="portfolio__img--eye">
+                                </a>
+                                <p class="portfolio__desc">Flexbox</p>
+                            </li>
+                        </ul>
                     </div>
                 </section>
             </main>
@@ -303,5 +371,30 @@
             </aside>
         </div>
     </div>
+    <footer class="footer">
+        <div class="layout">
+                <div class="contact">  
+                    <h3 class="contact__title">contact me</h3>
+                    <ul class="contact__list">
+                        <li class="contact__item"><a href="#" class="contact__link">
+                            <img src="assets/img/img-site.svg" alt="site" class="contact__img">
+                            https://githab.com/listgarten100
+                        </a></li>
+                        <li class="contact__item"><a href="#" class="contact__link">
+                            <img src="assets/img/img-phone.svg" alt="phone" class="contact__img">
+                            +380506802249
+                        </a></li>
+                        <li class="contact__item"><a href="#" class="contact__link">
+                            <img src="assets/img/img-location.svg" alt="location" class="contact__img">
+                            Ukraine, Kharkiv
+                        </a></li>
+                        <li class="contact__item"><a href="#" class="contact__link">
+                            <img src="assets/img/img-email.svg" alt="email" class="contact__img">
+                            listgarten100@gmail.com
+                        </a></li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
 </body>
 </html>

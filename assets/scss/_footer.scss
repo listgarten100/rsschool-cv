@@ -1,0 +1,48 @@
+.footer{
+    display: block;
+    position: relative;
+    background-color: #000;
+    width: 100%;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    min-height: 150px;
+    // display: flex;
+    align-items: center;
+    // align-content: center;
+
+    &__title{
+        font-size: 34px;
+        font-weight: 700;
+        font-family: $font1;
+        text-transform: uppercase;
+        color: #fff;
+        justify-self: center;
+    }
+
+    &__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    &__item{
+        position: relative;
+    }
+
+    &__link{
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        font-family: $font1;
+        color: #fff;
+    }
+
+    &__img{
+        width: 25px;
+        height: 25px;
+        margin-right: 16px;
+    }
+}
