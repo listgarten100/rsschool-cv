@@ -4,7 +4,7 @@
 
 
     &__inner{
-        padding: 80px 0;
+        padding: 64px 0;
     }
 
     &__list{
@@ -13,8 +13,7 @@
         grid-template-columns: 300px 300px;
         // justify-items: center;
         justify-content: center;
-        grid-row-gap: 40px;
-        grid-column-gap: 20px;
+        grid-gap: 40px;
     }
 
     &__item{

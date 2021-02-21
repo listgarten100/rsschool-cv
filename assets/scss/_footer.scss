@@ -47,6 +47,12 @@
         font-family: $font1;
         color: #fff;
         width: 230px;
+        
+
+        &:hover{
+            // text-decoration: underline;
+            opacity: 0.8;
+        }
     }
 
     &__img{

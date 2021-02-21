@@ -33,6 +33,7 @@
        display: grid;
        align-items: center;
        padding: 10px;
+       grid-gap: 10px;
 
        &::before{
         content: ''; 

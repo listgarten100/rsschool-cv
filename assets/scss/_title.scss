@@ -7,12 +7,12 @@
 
 
    &__greeting{
-       font-size: 34px;
-    //    font-family: 'Marck Script', sans-serif;
-        font-family: $font2;
-       font-weight: 700;
+       font-size: 56px;
+       font-family: 'Marck Script', sans-serif;
+        // font-family: $font2;
+    //    font-weight: 700;
        color: #fff;
-       font-style: italic;
+    //    font-style: italic;
    } 
 
    &__name{
