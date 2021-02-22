@@ -18,32 +18,50 @@
                 <h1 class="title__name">vlad list<span class="title__name--black">garten</span></h1>
                 <h2 class="title__desc">junior frontend <span class="title__desc--black">developer</span></h2>
             </div>
-       
             <main class="main">
                 <header class="header">
                     <div class="header__inner">
-                        <div class="download">
-                
-                            <div class="download__stick"></div>
-                            <!-- <a href="file/CV.pdf" class="download" target="_blank">Download CV</a> -->
-                            <a href="file/CV.pdf" class="download__link" target="_blank">Download CV</a>
-                          
+                        <div class="title--resp">
+                            <p class="title__greeting">
+                                Hello, I am
+                            </p>
+                            <h1 class="title__name">vlad listgarten</h1>
+                            <h2 class="title__desc">junior frontend developer</h2>
                         </div>
-                        <nav class="menu">
+                        <div class="download">
+                            <div class="download__stick"></div>
+                            <a href="file/CV.pdf" class="download__link" target="_blank">Download CV</a>
+                        </div>
+                        <div class="burger">
+							<span></span>
+						</div>
+                        <nav class="menu burger-menu">
                             <ul class="menu__list">
-                                <!-- <li class="menu__item"><a href="#about" class="menu__link">About me</a></li> -->
                                 <li class="menu__item"><a href="#education" class="menu__link">Education</a></li>
                                 <li class="menu__item"><a href="#lang" class="menu__link">Languages</a></li>
-                              
                                 <li class="menu__item"><a href="#skills" class="menu__link">Skills</a></li>
                                 <li class="menu__item"><a href="#awards" class="menu__link">Awards</a></li>
                                 <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
                                 <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
-                              
                             </ul>
                         </nav>
                     </div>
                 </header>
+                <section class="about--resp">
+                    <div class="about__inner">
+                        <img src="assets/img/img-logo.png" alt="logo" class="about__logo">
+                        <h3 class="aside__headline">about me</h3>
+                        <p class="about__text">
+                            I really want to look for a company where I can grow with this company. I dream to have a chance to learn new things from someone experienced. Also, I consider that I am a team-player.
+                        </p>
+                        <ul class="social">
+                                <li class="social__item"><a href="https://instagram.com/vlad.listgarten?igshid=a1wtdormsbtw" class="social__link" target="_blank"><img src="assets/img/img-insta.svg" alt="icon" class="social__img"></a></li>
+                                <li class="social__item"><a href="https://t.me/vlad_listgarten" class="social__link" target="_blank"><img src="assets/img/img-telegram.svg" alt="icon" class="social__img"></a></li>
+                                <li class="social__item"><a href="https://github.com/listgarten100" class="social__link" target="_blank"><img src="assets/img/img-github.svg" alt="icon" class="social__img"></a></li>
+                                <li class="social__item"><a href="https://join.skype.com/invite/B4TOlEmSE0mi" class="social__link" target="_blank"><img src="assets/img/img-skype.svg" alt="icon" class="social__img"></a></li>
+                        </ul>
+                    </div>
+                </section>
                 <section class="work">
                     <div class="work__inner">
                         <h3 class="headline">
@@ -58,15 +76,15 @@
                                 </div>
                                 <div class="work__decor">
                                     <div class="work__decor-horizStick"></div>
-                                    <div class="work__decor-vertStick">
+                                    <div class="work__decor-vertStick  work__decor-vertStick--sm">
                                         <div class="work__decor-vertStick-cirkle"></div>
                                     </div>
                                 </div>
-                                <p class="work__date work__date--right">2020 - 2021</p>
+                                <p class="work__date">2020 - 2021</p>
                             </li>
                             <li class="work__item">
-                                <p class="work__date date work__date--left">2020</p>
-                                <div class="work__decor">
+                                <p class="work__date work__date--second">2020</p>
+                                <div class="work__decor work__decor--main">
                                   
                                     <div class="work__decor-vertStick work__decor-vertStick--white">
                                         <div class="work__decor-vertStick-cirkle"></div>
@@ -81,6 +99,13 @@
                                         marketing demand lead
                                         generation campaigns</p>
                                 </div>
+                                <div class="work__decor work__decor--resp">
+                                    <div class="work__decor-horizStick"></div>
+                                    <div class="work__decor-vertStick work__decor-vertStick--white">
+                                        <div class="work__decor-vertStick-cirkle"></div>
+                                    </div>
+                                </div>
+                                <p class="work__date work__date--resp">2020</p>
                             </li>
                             <li class="work__item">
                                 <div class="work__desc work__desc--gray">
@@ -97,7 +122,7 @@
                                         <div class="work__decor-vertStick-cirkle"></div>
                                     </div>
                                 </div>
-                                <p class="work__date work__date--right">2019 - 2020</p>
+                                <p class="work__date">2019 - 2020</p>
                             </li>
                         </ul>
                     </div>
@@ -111,7 +136,7 @@
                                 <div class="lang__diagram">
                                     <svg class="lang__img">
                                         <circle class="lang__circle-inner" cx="39" cy="39" r="35"></circle>
-                                        <circle style="stroke-dasharray: 219.8;" class="lang__circle" cx="39" cy="39" r="35"></circle>
+                                        <circle class="lang__circle" cx="39" cy="39" r="35"></circle>
                                     </svg>
                                       <span class="lang__diagram-percent">0%</span>
                                       <span class="lang__diagram-percent--value">100%</span> 
@@ -122,7 +147,7 @@
                                 <div class="lang__diagram">
                                     <svg class="lang__img">
                                         <circle class="lang__circle-inner" cx="39" cy="39" r="35"></circle>
-                                        <circle style="stroke-dasharray: 219.8;" class="lang__circle" cx="39" cy="39" r="35"></circle>
+                                        <circle class="lang__circle" cx="39" cy="39" r="35"></circle>
                                     </svg>
                                       <span class="lang__diagram-percent">0%</span>
                                       <span class="lang__diagram-percent--value">90%</span> 
@@ -134,7 +159,7 @@
                                 <div class="lang__diagram">
                                     <svg class="lang__img">
                                         <circle class="lang__circle-inner" cx="39" cy="39" r="35"></circle>
-                                        <circle style="stroke-dasharray: 219.8;" class="lang__circle" cx="39" cy="39" r="35"></circle>
+                                        <circle class="lang__circle" cx="39" cy="39" r="35"></circle>
                                     </svg>
                                       <span class="lang__diagram-percent">0%</span>
                                       <span class="lang__diagram-percent--value">80%</span> 
@@ -145,7 +170,7 @@
                                 <div class="lang__diagram">
                                     <svg class="lang__img">
                                         <circle class="lang__circle-inner" cx="39" cy="39" r="35"></circle>
-                                        <circle style="stroke-dasharray: 219.8;" class="lang__circle" cx="39" cy="39" r="35"></circle>
+                                        <circle class="lang__circle" cx="39" cy="39" r="35"></circle>
                                     </svg>
                                       <span class="lang__diagram-percent">0%</span>
                                       <span class="lang__diagram-percent--value">25%</span> 
@@ -161,25 +186,21 @@
                         </h3>
                         <ul class="education__list-left">
                             <li class="education__item">
-                                <h5 class="education__place">KHARKIV AUTOMOBILE UNIVERSITY</h5>
+                                <h5 class="education__place">KHARKIV UNIVERSITY</h5>
                                 <p class="education__major">Engineer, Bachelor`s Degree</p>
                                 <div class="education__date"> <p class="education__date-text">2016-2021</p></div>
-                               
                             </li>
                             <li class="education__item">
-       
                                 <h5 class="education__place">SOURSE IT</h5>
                                 <p class="education__major">Mark Up development</p>
                                 <div class="education__date"> <p class="education__date-text">2020</p></div>
                             </li>
                             <li class="education__item">
-             
                                 <h5 class="education__place">Udemy</h5>
                                 <p class="education__major">Full course JS & React</p>
                                  <div class="education__date"> <p class="education__date-text">2020-2021</p></div>
                             </li>
                             <li class="education__item">
-            
                                 <h5 class="education__place">skill up</h5>
                                 <p class="education__major">Frontend course JS & React</p>
                                 <div class="education__date"> <p class="education__date-text">2020-2021</p></div>
@@ -294,7 +315,7 @@
                     <section class="about">
                         <div class="about__inner">
                             <img src="assets/img/img-logo.png" alt="logo" class="about__logo">
-                            <h3 id="about" class="aside__headline">about me</h3>
+                            <h3 class="aside__headline">about me</h3>
                             <p class="about__text">
                                 I really want to look for a company where I can grow with this company. I dream to have a chance to learn new things from someone experienced. Also, I consider that I am a team-player.
                             </p>
@@ -304,7 +325,6 @@
                                     <li class="social__item"><a href="https://t.me/vlad_listgarten" class="social__link" target="_blank"><img src="assets/img/img-telegram.svg" alt="icon" class="social__img"></a></li>
                                     <li class="social__item"><a href="https://github.com/listgarten100" class="social__link" target="_blank"><img src="assets/img/img-github.svg" alt="icon" class="social__img"></a></li>
                                     <li class="social__item"><a href="https://join.skype.com/invite/B4TOlEmSE0mi" class="social__link" target="_blank"><img src="assets/img/img-skype.svg" alt="icon" class="social__img"></a></li>
-                   
                             </ul>
                         </div>
                     </section>
@@ -317,8 +337,6 @@
                                     <progress class="skills__progress" value="0" max="100">80%</progress>
                                     <span class="skills__number">0%</span>
                                     <div class="skills__circle"></div>
-                                  
-                                  
                                 </li>
                                 <li class="skills__item">
                                     <h5 class="skills__name">CSS</h5>
@@ -382,15 +400,14 @@
         </div>
   
     <footer class="footer">
-     
                 <div class="contact" id="contacts">  
                     <h3 class="contact__title">contact me</h3>
                     <ul class="contact__list">
                         <li class="contact__item"><a href="https://github.com/listgarten100" class="contact__link" target="_blank">
                             <img src="assets/img/img-site.svg" alt="site" class="contact__img">
-                            https://githab.com/listgarten100
+                            https://github.com/listgarten100
                         </a></li>
-                        <li class="contact__item"><a href="tel: +380506802249" class="contact__link">
+                        <li class="contact__item"><a href="tel:+380506802249" class="contact__link">
                             <img src="assets/img/img-phone.svg" alt="phone" class="contact__img">
                             +380506802249
                         </a></li>
@@ -398,13 +415,12 @@
                             <img src="assets/img/img-location.svg" alt="location" class="contact__img">
                             Ukraine, Kharkiv
                         </a></li>
-                        <li class="contact__item"><a href="mailto: listgarten100@gmail.com" class="contact__link">
+                        <li class="contact__item"><a href="mailto:listgarten100@gmail.com" class="contact__link">
                             <img src="assets/img/img-email.svg" alt="email" class="contact__img">
                             listgarten100@gmail.com
                         </a></li>
                     </ul>
                 </div>
-      
         </footer>
     </div>
     <script src="assets/js/main.js"></script>

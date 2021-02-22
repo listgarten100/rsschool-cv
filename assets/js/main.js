@@ -21,6 +21,17 @@ getSlowScroll();
 
 
 
+//burger menu
+let burger = document.querySelector('.burger');
+let burgerMenu = document.querySelector('.burger-menu')
+
+burger.addEventListener('click', () => {
+  burger.classList.toggle('active');
+  burgerMenu.classList.toggle('active');
+});
+
+
+
 //skills progress bar
 function getProgressSkills() {
     const skillsList = document.querySelector('.skills__list');    
@@ -66,7 +77,7 @@ getProgressSkills();
 
 
 //languages progress bar
-function getProgressLang() {
+function getProgressLang(circleLength) {
 
     const circleDiagramList = document.querySelector('.lang__list');
     const circleDiagrams = document.querySelectorAll('.lang__circle');
@@ -79,12 +90,11 @@ function getProgressLang() {
 
         for(let i = 0; i < circleDiagramList.childElementCount; i++) {
     
-            let circleLength = +circleDiagrams[i].style.strokeDasharray;
-            let lengthOperation = circleLength - (circleLength / 100 * +circlePercentsValue[i].innerHTML.slice(0, -1)).toFixed(0); 
-    
-            let start = +circleLength.toFixed(0);
+            let lengthOperation = circleLength - (circleLength / 100 * +circlePercentsValue[i].innerHTML.slice(0, -1)).toFixed(0);
+
+            let start = circleLength;
             let startPercent = 0;
-    
+            
             setInterval(() => {
                 if(start < lengthOperation) clearInterval()
                 else{
@@ -108,7 +118,7 @@ function getProgressLang() {
     }
     window.addEventListener('scroll', getScrollCheck);
 }
-getProgressLang();
+getProgressLang(219);
 
 
     
